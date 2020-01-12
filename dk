@@ -1,5 +1,5 @@
+#!/usr/bin/env php
 <?php
-#!/usr/bin/env php$command = $argv[1];
 include("../ziyadsk/dk/src/DK.php");
 if($argv[1]) {
     if(is_file($argv[1])){
