@@ -164,7 +164,7 @@ class Translator {
                 $to_evaluate = ltrim($to_evaluate,"(");
                 $list = explode("in",$to_evaluate)[1];
                 $element = explode("in",$to_evaluate)[0];
-                print_r($to_evaluate);
+                
                     $evaluated_expression = "foreach($list as $$element";
                     $evaluated_expression = "foreach($list as $$element";
                 
@@ -187,7 +187,7 @@ class Translator {
                     // result wanted 
                     $result_wanted = explode("for",$to_evaluate)[0] ; 
                     $result_wanted = ltrim($result_wanted,"[");
-                    print($result_wanted);
+                   
                     // element targeted
                     $element_of_array = trim(explode("in",explode("for",$to_evaluate)[1])[0]);
                   

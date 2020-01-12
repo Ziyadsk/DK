@@ -1,5 +1,6 @@
 #!/usr/bin/env php
 <?php
+include("src/DK.php");
 
 if($argv[1]) {
     if(is_file($argv[1])){
