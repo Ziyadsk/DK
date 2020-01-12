@@ -1,6 +1,6 @@
 #!/usr/bin/env php
 <?php
-include("../ziyadsk/dk/src/DK.php");
+
 if($argv[1]) {
     if(is_file($argv[1])){
         (new DK($argv[1],$argv[2] ?? null));
