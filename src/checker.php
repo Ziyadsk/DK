@@ -1,5 +1,4 @@
 <?php 
-include("php.php");
 
 class Checker {
     public function __construct() {}

@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 class PHP {
 
 public static $KEYWORDS = ["return","extends","as","class","elseif","endif","catch","implements","interface","trait" ,"instanceof","insteadof","else","if","function","for","endfor","clone","include_once","require_once","try","static","const","echo","print","print_r","switch","endswitch","foreach","do","while","endwhile","break","continue","new","yield","namespace","and","or","case","default","use","include","require","final",'global',"private","public","protected","declare","enddeclare","goto","finally","in","pub"] ;

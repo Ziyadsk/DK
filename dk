@@ -1,0 +1,16 @@
+<?php
+#!/usr/bin/env php
+$command = $argv[1];
+
+if($command) {
+    if(is_file($argv[1])){
+        (new DK($argv[1],$argv[2] ?? null));
+    }else {
+        echo("File not found : $argv[1]");
+    }
+}
+else {
+    echo("\nUsage :\n");
+    echo("dk translate [file] [destination]");
+}
+?>
