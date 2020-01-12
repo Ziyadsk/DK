@@ -9,8 +9,6 @@
 #### Add the composer bin to your path
     echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
 
-### Clone the repositry
-
 ## Usage 
 ```bash
 dk translate [file] [destination]
