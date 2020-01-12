@@ -5,9 +5,9 @@
 ## Installation 
 
 ### Via Composer 
-    composer global require ziyadsk/DK
+    composer global require ziyadsk/dk
 #### Add the composer bin to your path
-    export path
+    echo 'export PATH="$PATH:$HOME/.composer/vendor/bin"' >> ~/.bashrc
 
 ### Clone the repositry
 
