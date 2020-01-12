@@ -1,8 +1,7 @@
 <?php
-#!/usr/bin/env php
-$command = $argv[1];
-
-if($command) {
+#!/usr/bin/env php$command = $argv[1];
+include("../ziyadsk/dk/src/DK.php");
+if($argv[1]) {
     if(is_file($argv[1])){
         (new DK($argv[1],$argv[2] ?? null));
     }else {
