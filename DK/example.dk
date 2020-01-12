@@ -1,0 +1,34 @@
+// one lined comments!
+// another one lined comment
+    // this is a function 
+/* 
+	life is hard 
+*/
+
+print("hello") 
+
+fn love(name){
+	return "james is " . name 
+}
+
+float s = 10 
+
+string longString = "Hello this is an int and not a string"
+
+int number = 1
+
+string name = "hello string"
+
+func("Hello friend",name)
+
+
+
+for(user in users){
+	echo(user)
+}
+
+for(u in {1..10}){
+	echo(i)
+}
+
+for( u in arr ){print(u)}
