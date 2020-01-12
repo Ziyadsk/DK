@@ -1,6 +1,14 @@
-<?php
 #!/usr/bin/env php
+<?php
+include("../DK/DK.php");
+$command = $argv[1];
 
-(new DK($argv[1],$argv[2] ?? null));
+if($command){
+    (new DK($argv[1],$argv[2] ?? null));
+}
+else {
+    echo("\nUsage :\n");
+    echo("dk translate [file] [destination]");
+}
 
 ?>
