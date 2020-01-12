@@ -12,10 +12,7 @@ class DK {
             Translator::translate($file_or_dir_name,$destination);
         }
         
-        
     }
 }
-
-
 
 ?>

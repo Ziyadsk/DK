@@ -5,6 +5,9 @@
 ## Installation 
 
 ### Via Composer 
+    composer global require ziyadsk/DK
+#### Add the composer bin to your path
+    export path
 
 ### Clone the repositry
 
@@ -14,9 +17,6 @@ dk translate [file] [destination]
 ```
 #### - If no destination is given the current directory will be the destination.
 
-#### You can translate entire directories if you wish .
-
-### you can also just run 
 ## Features
 ### **DK** transform more readable code into php 
 #### Removed semicolons and dollar signs and openning tags :
@@ -70,8 +70,7 @@ to
 #### classes , class propreties and interfaces:
 
 ```java
-    class Car : Vehicule 
-    [SomeInterface,Runnable] {
+    class Car : Vehicule [SomeInterface,Runnable] {
         serial_number = "9819020Z0DJLOZEOLD"
         pub name = "Honda"
         pub fn start_engine(){}
@@ -94,7 +93,7 @@ to
 ?>
 ```
 ## Editor Support
-- VScode extension -> [DK]()
+- VScode extension -> [DK](https://marketplace.visualstudio.com/items?itemName=ziyadsk.DK)
 
 ## License
 [MIT]()

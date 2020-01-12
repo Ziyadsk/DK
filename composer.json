@@ -1,0 +1,15 @@
+{
+    "name": "ziyadsk/DK",
+    "description": "Another way to write your php",
+     "homepage": "https://github.com/ziyadsk/DK",
+     "keywords": ["php","transpiler"],
+     "license": "MIT",
+     "require": {
+              "php": "^7.2"
+
+     },
+     "minimum-stability": "dev",
+     "bin":[
+        "dk"
+    ]
+}
