@@ -9,6 +9,9 @@ class Translator {
                 case 'fn':
                     return "function";
                 break ; 
+                case 'pub':
+                    return "public";
+                break; 
                 default:
                     return $keyword;
             }
@@ -48,7 +51,7 @@ class Translator {
                     
                    
                 }
-                 
+                
                 array_push($processed_file,trim($line) . "\n");
             }
 
@@ -56,13 +59,16 @@ class Translator {
         array_push($processed_file,"?>"); 
         
         $processed_file = implode("",$processed_file);
-        echo($processed_file);
+            
         $file_name_path = mb_substr($file_name_path,0,-3);
         $file_name_path = @end(explode("/",$file_name_path));
+        print($destination);
         if($destination){
             $php_file = fopen("$destination" . "/" . "$file_name_path.php", 'w');
+        }else {
+            $php_file = fopen("$file_name_path.php", 'w');
         }
-        $php_file = fopen("$file_name_path.php", 'w');
+     
         fwrite($php_file,$processed_file);
         fclose($php_file);
         
@@ -316,6 +322,5 @@ class Translator {
         }
 }
 
-(new Translator)::translate("file.dk","");
 
 ?>

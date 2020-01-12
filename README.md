@@ -10,7 +10,7 @@
 
 ## Usage 
 ```bash
-dk translate [file/directory] [destination]
+dk translate [file] [destination]
 ```
 #### - If no destination is given the current directory will be the destination.
 

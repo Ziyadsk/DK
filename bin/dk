@@ -1,0 +1,6 @@
+<?php
+#!/usr/bin/env php
+
+(new DK($argv[1],$argv[2] ?? null));
+
+?>
