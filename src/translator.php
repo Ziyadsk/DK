@@ -71,6 +71,7 @@ class Translator {
      
         fwrite($php_file,$processed_file);
         fclose($php_file);
+        echo("Created $php_file\n");
         
         }
         
