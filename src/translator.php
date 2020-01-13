@@ -1,5 +1,6 @@
 <?php 
 include("php.php");
+
 class Translator {
 
         public function __construct(){}

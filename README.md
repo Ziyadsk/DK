@@ -11,7 +11,7 @@
 
 ## Usage 
 ```bash
-dk translate [file] [destination]
+dk [file] [destination]
 ```
 #### - If no destination is given the current directory will be the destination.
 
@@ -43,7 +43,7 @@ to
 ```php
 <?php
     function print_100_times($variable){
-        for($i=0 ;$i<=100,$i++){
+        for($i=0 ;$i<=100; $i++){
             print($variable);
         }
     }
@@ -52,7 +52,7 @@ to
 #### More readable foreach loops :
 ```rust
     for(element in my_arr){
-        print(elem)
+        print(element)
     }
 }
 ```
@@ -68,14 +68,14 @@ to
 #### classes , class propreties and interfaces:
 
 ```java
-    class Car : Vehicule [SomeInterface,Runnable] {
+    class Car : Vehicule [SomeInterface,AnotherInterFace] {
+        static pub name = "Honda"
         serial_number = "9819020Z0DJLOZEOLD"
-        pub name = "Honda"
         pub fn start_engine(){}
-      
     }
     myCar = new Car()
     myCar->start_engine() 
+    
 ```
 to 
 
